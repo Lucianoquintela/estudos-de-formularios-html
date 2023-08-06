@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Estudo de formulários</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  
+  <fieldset><legend>Criar conta</legend>
+<label for="nome">Nome:</label>
+<br>
+<input id="nome" type="text" placeholder="insira seu nome">
+
+<br>
+
+<br>
+<label for="sobrenome">Sobrenome:</label><br>
+<input type="text" placeholder="inserir sobrenome" id="sobrenome"></input><br>
+
+<br>
+<label for="dtnascimento">Data de nascimento:</label><br>
+<input type="date" id="dtnascimento"></input><br>
+<!-- o (for) e o (id) serve para quando o usuário clicar n9 texto do label reconhecer como um clique tambem no input --->
+<br>
+<label for="senha">Crie uma senha:</label><br>
+<input type="password" placeholder="min 8 caracteres" id="senha"></input><br>
+
+<br>
+<label for="email">E-mail:</label><br>
+<input type="email" placeholder="digite seu e-mail" id="email"></input><br>
+
+<br>
+<label for="telefone">Número de telefone:</label><br>
+<input type="tel"placeholder="inserir tefone" id="telefone"></input><br>
+<br>
+
+
+<label for="renda">Renda mensal:</label><br>
+<input id="renda" type="number" placeholder="Renda">
+</input><br><br>
+
+<label for="rg">RG:</label><br>
+<input type="file" id="rg"></input><br>
+
+<br>
+<label for="sexo">Sexo:</label><br>
+<input type="radio" name="sexo">Masculino</input><!-- O name indica que os input masculino,feminino e outro faz parte da seleção de sexo-->
+<input type="radio" name="sexo">Feminino</input>
+<input type="radio" name="sexo">Outro</input>
+
+<br>
+<br>
+
+<label>Cidade:</label><br>
+<select>
+		<option>Apuiares</option><br>
+		<option>General sampaio</option><br>
+		<option>Tejuçuoca</option><br>
+		<option >Paramoti</option>
+</select>
+
+<br>
+<br>
+<label for="experiências">Experiências:</label><br>
+<Textarea placeholder="Fale sobre suas experiências no mercado" id="experiências"></Textarea>
+<br>
+
+<br>
+<div class="botoesDeAcao">
+
+<input type="submit">
+
+<input type="reset">
+
+
+
+</div>
+
+</fieldset>
+
+	<script src="index.js"></script>
+  </body>
+</html>
+
+
+

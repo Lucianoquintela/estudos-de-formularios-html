@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+
+* {
+    
+    font-family:Poppins;
+    color:black;
+}
+
+body {
+  background-color:orange;   
+margin:10px;
+}
+
+
+.botoesDeAcao{
+    display:flex;
+    gap:10px;
+}
+
